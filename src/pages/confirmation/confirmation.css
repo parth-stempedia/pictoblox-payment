@@ -1,0 +1,93 @@
+.credit-div {
+    max-width: 450px;
+  background: #ffffff;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 5%);
+}
+
+.credit-body{
+  background: #f8f8f8;
+  margin-top: 40px;
+  font-family: "Roboto"
+}
+
+.credit-logo{
+      margin: auto;
+  display: block;
+margin-bottom: 20px;
+}
+
+.heading{
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 800 !important;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: -5px;
+}
+
+section{
+  display: none;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+label{
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+button{
+  font-size: 16px;
+  padding: 10px 20px;
+  vertical-align: middle;
+  background-color: #611f81;
+  color: white;
+  border: 0px solid #ddd;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+      cursor: pointer;
+}
+
+#btn{
+  font-size: 16px;
+  padding: 10px 20px;
+  vertical-align: middle;
+  background-color: #611f81;
+  color: white;
+  border: 0px solid #ddd;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#name, #amt, #credits{
+      font-size: 16px;
+  padding: 6px 12px;
+  vertical-align: middle;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+}
+
+#name{
+  pointer-events: none;
+}
+
+#weakPassword{
+  color: red;
+}
